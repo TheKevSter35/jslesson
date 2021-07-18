@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #202020;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: #fff;
+}
+
+/****************************/
+
+.rood {
+  background-color: red;
+}
+
+.blauw {
+  background-color: blue;
+}
+
+.groen {
+  background-color: green;
+}
+
+/****************************/
+
+/*alle div class block/halfblock */
+
+.halfblock {
+  width: 50%;
+}
+
+.block {
+  width: 100%;
+}
+
+.halfblock, .block {
+  float: left;
+  padding: 15px;
+}
+
+/****************************/
+
+/* BODY */
+
+body {}
+
+body #page h1, body #page h2, body #page h3, body #page h4, body #page h5, body #page h6 {
+  font-family: 'open-sans', sans-serif;
+  color: #fff;
+}
+
+/* SECTION_ROW_1*/
+
+/****************************/
+
+body:not(.no-index) .section_row_1 .container {
+  padding: 50px 15px;
+}
+
+body:not(.no-index) .section_row_1 .col-md-6 {
+  border: 5px solid #fff;
+  min-height: 370px;
+  background-color: #f3f3f3;
+  padding: 0 5px;
+  width: 48%;
+  margin: 0 1%;
+}
+
+body:not(.no-index) .section_row_1 h1 {
+  text-align: center;
+}
+
+body:not(.no-index) .section_row_1 #Colorpicker {
+  text-align: center;
+  padding: 50px 15px;
+}
+
+body:not(.no-index) .section_row_1 button {
+  padding: 15px;
+  width: 65px;
+  margin: 1px;
+}
+
+body:not(.no-index) .section_row_1 .color {
+  border: 10px solid #fff;
+  width: 250px;
+  margin: 50px auto;
+  border-radius: 50%;
+  height: 250px;
+}
+
+body:not(.no-index) .section_row_2 {
+  text-align: center;
+}
+
+body:not(.no-index) .section_row_2 p#kaartinfo {
+  padding: 15px 0 30px;
+}
+
+body:not(.no-index) .section_row_2 #pack {
+  background-image: url("../images/boosterpack.png");
+  width: 160px !important;
+  background-repeat: no-repeat;
+  height: 290px;
+  background-size: 160px;
+}
+
+body:not(.no-index) .section_row_2 img {
+  width: 150px;
+}
+
+body:not(.no-index) .section_row_2 #Allecards {
+  margin-bottom: 20px;
+}
